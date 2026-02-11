@@ -1,5 +1,5 @@
 {
-  "name": "@freestyle/web",
+  "name": "@payable-turborepo-starter/web",
   "version": "0.1.0",
   "type": "module",
   "private": true,
@@ -11,7 +11,7 @@
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
-    "@freestyle/ui": "*",
+    "@payable-turborepo-starter/ui": "*",
     "autoprefixer": "^10.4.21",
     "next": "^15.5.0",
     "react": "^19.1.0",
@@ -19,8 +19,8 @@
     "tailwindcss": "^4.1.14"
   },
   "devDependencies": {
-    "@freestyle/eslint-config": "*",
-    "@freestyle/typescript-config": "*",
+    "@payable-turborepo-starter/eslint-config": "*",
+    "@payable-turborepo-starter/typescript-config": "*",
     "@tailwindcss/postcss": "^4.1.14",
     "@types/node": "^22.15.3",
     "@types/react": "19.1.0",

@@ -1,10 +1,10 @@
 {
-  "extends": "@freestyle/typescript-config/react-library.json",
+  "extends": "@payable-turborepo-starter/typescript-config/react-library.json",
   "compilerOptions": {
     "outDir": "dist",
     "baseUrl": ".",
     "paths": {
-      "@freestyle/ui/*": ["src/*"]
+      "@payable-turborepo-starter/ui/*": ["src/*"]
     }
   },
   "include": ["src"],

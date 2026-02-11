@@ -1,5 +1,5 @@
 {
-  "name": "@freestyle/eslint-config",
+  "name": "@payable-turborepo-starter/eslint-config",
   "version": "0.0.0",
   "type": "module",
   "private": true,

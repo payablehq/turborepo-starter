@@ -1,5 +1,5 @@
 {
-  "name": "@freestyle/ui",
+  "name": "@payable-turborepo-starter/ui",
   "version": "0.0.0",
   "private": true,
   "exports": {
@@ -12,8 +12,8 @@
     "check-types": "tsc --noEmit"
   },
   "devDependencies": {
-    "@freestyle/eslint-config": "*",
-    "@freestyle/typescript-config": "*",
+    "@payable-turborepo-starter/eslint-config": "*",
+    "@payable-turborepo-starter/typescript-config": "*",
     "@tailwindcss/postcss": "^4.1.14",
     "@types/node": "^22.15.3",
     "@types/react": "19.1.0",

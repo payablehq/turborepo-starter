@@ -1,5 +1,5 @@
 {
-  "name": "freestyle",
+  "name": "payable-turborepo-starter",
   "private": true,
   "scripts": {
     "build": "turbo run build",
