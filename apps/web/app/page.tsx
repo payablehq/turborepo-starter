@@ -1,6 +1,7 @@
 import Image, { type ImageProps } from "next/image";
 import { Button } from "@payable-turborepo-starter/ui";
 import styles from "./page.module.css";
+import ApiMessage from "./components/api-message";
 
 type Props = Omit<ImageProps, "src"> & {
   srcLight: string;
@@ -63,6 +64,7 @@ export default function Home() {
             Read our docs
           </a>
         </div>
+        <ApiMessage />
         <Button variant={"destructive"}>Click me</Button>
         <Button variant={"default"}>Click me</Button>
         <Button variant={"secondary"}>Click me</Button>
