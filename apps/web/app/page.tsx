@@ -64,7 +64,9 @@ export default function Home() {
             Read our docs
           </a>
         </div>
-        <ApiMessage />
+        <code>
+          <ApiMessage />
+        </code>
         <Button variant={"destructive"}>Click me</Button>
         <Button variant={"default"}>Click me</Button>
         <Button variant={"secondary"}>Click me</Button>
